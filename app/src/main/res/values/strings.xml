@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BLE Scanner</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="main_intro">Bluetooth Low Entergy (BLE) Scanner</string>
+    <string name="title_activity_ble_preferences">BLE Scanner - Preferences</string>
+    <string name="ble_not_supported">Device does not support Bluetooth Low Energy (BLE) hardware.</string>
+    <string name="ble_api_not_supported">Device does not support Bluetooth Low Energy (BLE) APL; API level 18 (Android 4.3) or higher required.</string>
+    <string name="ble_api_downgraded">Bluetooth Low Energy (BLE) API level 21 not supported; using BLE API level 18</string>
+
+    <!--Preferences-->
+
+    <string name="pref_api">ble_api_level</string>
+
+    <string name="pref_api_title">BLE API Preference</string>
+    <string name="pref_api_dialog">Select BLE API level to prefer</string>
+
+    <string name="pref_api_label_18">Prefer BLE API level 18</string>
+    <string name="pref_api_label_21">Prefer BLE API level 21</string>
+
+    <string name="pref_api_value_18">18</string>
+    <string name="pref_api_value_21">21</string>
+
+    <string name="pref_api_default">18</string>
+
+    <string name="pref_type">scan_type</string>
+
+    <string name="pref_type_title">Bluetooth scan type preference</string>
+    <string name="pref_type_dialog">Select type of Bluetooth device to scan for</string>
+
+    <string name="pref_type_label_ble">Scan for Bluetooth Low Energy devices</string>
+    <string name="pref_type_label_classic">Scan for Bluetooth Classic devices</string>
+
+    <string name="pref_type_value_ble">ble</string>
+    <string name="pref_type_value_classic">classic</string>
+
+    <string name="pref_type_default">ble</string>
+
+</resources>

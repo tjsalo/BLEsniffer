@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_api_entries">
+        <item name="favorite">@string/pref_api_label_18</item>
+        <item name="popular">@string/pref_api_label_21</item>
+    </string-array>
+    <string-array name="pref_api_values">
+        <item name="favorite">@string/pref_api_value_18</item>
+        <item name="popular">@string/pref_api_value_21</item>
+    </string-array>
+
+    <string-array name="pref_type_entries">
+        <item name="ble">@string/pref_type_label_ble</item>
+        <item name="classic">@string/pref_type_label_classic</item>
+    </string-array>
+    <string-array name="pref_type_values">
+        <item name="ble">@string/pref_type_value_ble</item>
+        <item name="classic">@string/pref_type_value_classic</item>
+    </string-array>
+</resources>

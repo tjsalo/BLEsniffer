@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListPreference
+        android:key="@string/pref_api"
+        android:title="@string/pref_api_title"
+        android:dialogTitle="@string/pref_api_dialog"
+        android:entries="@array/pref_api_entries"
+        android:entryValues="@array/pref_api_values"
+        android:defaultValue="@string/pref_api_default"
+        />
+
+    <ListPreference
+        android:key="@string/pref_type"
+        android:title="@string/pref_type_title"
+        android:dialogTitle="@string/pref_type_dialog"
+        android:entries="@array/pref_type_entries"
+        android:entryValues="@array/pref_type_values"
+        android:defaultValue="@string/pref_type_default"
+        />
+
+</PreferenceScreen>
